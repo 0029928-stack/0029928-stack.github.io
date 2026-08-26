@@ -5,8 +5,8 @@
 body {
   margin: 0;
   background: #b83668;
-  color: #222;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #00aa2b9f;
+  font-family: "Courier New", Courier, monospace;
 }
 
 #all-contents {
@@ -41,6 +41,7 @@ h2 {
   letter-spacing: -0.04em;
   text-transform: uppercase;
   color: #5a5bb4;
+
 }
 
 .content > p {
@@ -160,3 +161,56 @@ nav h1 {
   background: #ebd884;
   color: #d1b94f;
 }
+/* Portfolio styles */
+.content h1 {
+  color: 262769;
+}
+
+#portfolio {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+#portfolio li {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+#portfolio a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  color: #e6750b;
+  padding: 16px 20px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  background: #ebd884;
+  border: 1px solid #e6750b;
+  border-radius: 12px;
+  transition: background 0.25s ease, color 0.25s ease, transform 0.25s ease;
+}
+
+#portfolio a:hover {
+  background: #ee0216;
+  color: #e6515e;
+  transform: translateX(4px);
+}
+
+#portfolio a::after {
+  content: "->";
+  font-size: 0.85rem;
+  opacity: 0.4;
+  transition: opacity 0.25s ease;
+  white-space: nowrap;
+}
+
+#portfolio a:hover::after {
+  opacity: 1;
+}
+
