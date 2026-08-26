@@ -162,8 +162,9 @@ nav h1 {
   color: #d1b94f;
 }
 /* Portfolio styles */
+body {}
 .content h1 {
-  color: 262769;
+   color: #262769;
 }
 
 #portfolio {
@@ -203,7 +204,7 @@ nav h1 {
 }
 
 #portfolio a::after {
-  content: "->";
+  content: ":P";
   font-size: 0.85rem;
   opacity: 0.4;
   transition: opacity 0.25s ease;
