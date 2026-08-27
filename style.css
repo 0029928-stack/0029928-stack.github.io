@@ -6,7 +6,7 @@ body {
   margin: 0;
   background: #b83668;
   color: #00aa2b9f;
-  font-family: "Courier New", Courier, monospace;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 #all-contents {
@@ -162,9 +162,16 @@ nav h1 {
   color: #d1b94f;
 }
 /* Portfolio styles */
-body {}
+
+#onlyportfolio {
+ background: #0c4174;
+}
+
 .content h1 {
-   color: #262769;
+   color: #99d866;
+}
+.content h3 {
+  color: #940707
 }
 
 #portfolio {
@@ -176,6 +183,7 @@ body {}
   flex-direction: column;
   gap: 8px;
 }
+
 
 #portfolio li {
   border-radius: 12px;
@@ -191,7 +199,7 @@ body {}
   padding: 16px 20px;
   font-size: 1.5rem;
   font-weight: 500;
-  background: #ebd884;
+  background: #e7c429;
   border: 1px solid #e6750b;
   border-radius: 12px;
   transition: background 0.25s ease, color 0.25s ease, transform 0.25s ease;
